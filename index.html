@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Test</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css"/>
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+</head>
+<body>
+    <form>
+        <h1>Standard Hotdog Stand</h1>
+        <hr>
+
+        <label>Menu:</label>
+        <select id="first_option" value=10>
+        <option for="reg_dog">Regular Hotdog</option>
+        <option for="chese_dog">Cheese Dog</option>
+        <option for="bacon_dog">Bacon Hotdog</option>
+        <option for="chicken_dog">Chicken Hotdog</option>
+        <br>
+        <label>Condiments:<label>
+        <select id="second_option" value=7>
+        <option for="ketchup">Additional Ketchup</option>
+        <option for="mustard">Additional Mustard</option>
+        <br>
+        <label>Drinks:</label>
+        <select id="third_option" value=5>
+        <option for="ketchup">Water</option>
+        <option for="mustard">Soda</option>
+        <br>
+        <h3>☆*: .｡. Reciept .｡.:*☆</h3>
+        <button py-click="get_reciept" value="Reciept">Get your Reciept here</button>
+
+    </form>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
